@@ -1,0 +1,16 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:C:\Users\Sanduni\AppData\Local\nvm\v20.19.5\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Sanduni\.npmrc
+5 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+6 verbose title npm config get registry
+7 verbose argv "config" "get" "registry"
+8 verbose logfile logs-max:10 dir:D:\PrimeWave_Lab\.npm-cache\_logs\2026-10-14T04_45_17_457Z-
+9 verbose logfile D:\PrimeWave_Lab\.npm-cache\_logs\2026-10-14T04_45_17_457Z-debug-0.log
+10 verbose cwd C:\Users\Sanduni\AppData\Local\Programs\Antigravity IDE
+11 verbose os Windows_NT 10.0.26200
+12 verbose node v20.19.5
+13 verbose npm  v10.8.2
+14 verbose exit 0
+15 info ok

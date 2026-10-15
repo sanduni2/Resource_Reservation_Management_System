@@ -1,0 +1,42 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\Users\Sanduni\AppData\Local\nvm\v20.19.5\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:C:\Users\Sanduni\AppData\Local\nvm\v20.19.5\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Sanduni\.npmrc
+5 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+6 verbose title npm exec chrome-devtools-mcp@latest --autoConnect --no-usage-statistics --no-performance-crux
+7 verbose argv "exec" "--yes" "--" "chrome-devtools-mcp@latest" "--autoConnect" "--no-usage-statistics" "--no-performance-crux"
+8 verbose logfile logs-max:10 dir:D:\PrimeWave_Lab\.npm-cache\_logs\2026-10-14T04_45_03_981Z-
+9 verbose logfile D:\PrimeWave_Lab\.npm-cache\_logs\2026-10-14T04_45_03_981Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/chrome-devtools-mcp 474ms (cache miss)
+14 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 silly idealTree buildDeps
+17 silly fetch manifest chrome-devtools-mcp@1.10.1
+18 silly packumentCache full:https://registry.npmjs.org/chrome-devtools-mcp cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/chrome-devtools-mcp 148ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/chrome-devtools-mcp set size:undefined disposed:false
+21 silly fetch manifest @blackwell-systems/gcf@^2.2.2
+22 silly packumentCache full:https://registry.npmjs.org/@blackwell-systems%2fgcf cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/@blackwell-systems%2fgcf 103ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/@blackwell-systems%2fgcf set size:undefined disposed:false
+25 silly fetch manifest @toon-format/toon@^4.1.0
+26 silly packumentCache full:https://registry.npmjs.org/@toon-format%2ftoon cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/@toon-format%2ftoon 75ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/@toon-format%2ftoon set size:undefined disposed:false
+29 silly placeDep ROOT chrome-devtools-mcp@1.10.1 OK for:  want: 1.10.1
+30 silly reify moves {}
+31 silly audit bulk request { 'chrome-devtools-mcp': [ '1.10.1' ] }
+32 silly tarball no local data for chrome-devtools-mcp@https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.10.1.tgz. Extracting by manifest.
+33 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 253ms
+34 silly audit report {}
+35 http fetch GET 200 https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.10.1.tgz 2227ms (cache miss)
+36 verbose cwd C:\Users\Sanduni\AppData\Local\Programs\Antigravity IDE
+37 verbose os Windows_NT 10.0.26200
+38 verbose node v20.19.5
+39 verbose npm  v10.8.2
+40 verbose exit 0
+41 info ok

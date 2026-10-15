@@ -1,0 +1,34 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Resource {
+  id          String       @id @default(cuid())
+  name        String
+  type        String
+  location    String
+  capacity    Int
+  isActive    Boolean      @default(true)
+  createdAt   DateTime     @default(now())
+  reservations Reservation[]
+}
+
+model Reservation {
+  id          String   @id @default(cuid())
+  resourceId  String
+  resource    Resource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  date        String
+  startTime   String
+  endTime     String
+  purpose     String
+  reservedBy  String
+  status      String   @default("confirmed")
+  createdAt   DateTime @default(now())
+
+  @@index([resourceId, date])
+}

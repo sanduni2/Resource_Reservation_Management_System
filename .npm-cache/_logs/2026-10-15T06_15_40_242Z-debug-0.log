@@ -1,0 +1,17 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:C:\Users\Sanduni\AppData\Local\nvm\v20.19.5\node_modules\npm\npmrc
+4 silly config load:file:d:\PrimeWave_Lab\.npmrc
+5 silly config load:file:C:\Users\Sanduni\.npmrc
+6 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+7 verbose title npm config get prefix
+8 verbose argv "config" "get" "prefix"
+9 verbose logfile logs-max:10 dir:D:\PrimeWave_Lab\.npm-cache\_logs\2026-10-15T06_15_40_242Z-
+10 verbose logfile D:\PrimeWave_Lab\.npm-cache\_logs\2026-10-15T06_15_40_242Z-debug-0.log
+11 verbose cwd d:\PrimeWave_Lab
+12 verbose os Windows_NT 10.0.26200
+13 verbose node v20.19.5
+14 verbose npm  v10.8.2
+15 verbose exit 0
+16 info ok
